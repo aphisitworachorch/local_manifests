@@ -4,11 +4,13 @@
 
 <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 
-<remove-project name="platform/hardware/qcom/media" />
+<remote name="muppets" fetch="git://github.com/TheMuppets/" />
 
-<remove-project name="platform/hardware/invensense" />
+<remote name="zygote" fetch="git://github.com/Zyg0te" />
 
-<remove-project name="platform/hardware/akm" />
+<project name="android_device_sony_leo" path="device/sony/leo" remote="zygote"/>
+
+<project name="proprietary_vendor_sony" path="vendor/sony" remote="muppets"/>
 
 <project path="device/sony/amami" name="device-sony-amami" groups="device" remote="sony" revision="master" />
 
@@ -21,8 +23,6 @@
 <project path="device/sony/flamingo" name="device-sony-flamingo" groups="device" remote="sony" revision="master" />
 
 <project path="device/sony/honami" name="device-sony-honami" groups="device" remote="sony" revision="master" />
-
-<project path="device/sony/leo" name="device-sony-leo" groups="device" remote="sony" revision="master" />
 
 <project path="device/sony/rhine" name="device-sony-rhine" groups="device" remote="sony" revision="master" />
 
