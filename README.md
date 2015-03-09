@@ -1,2 +1,2 @@
 # local_manifests
-Local Manifests for Xperia Devices
+Deprecated. Use the files found in https://github.com/Furrydaus/android_script
