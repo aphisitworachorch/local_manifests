@@ -1,2 +1,3 @@
-# local_manifests
-Deprecated. Use the files found in https://github.com/Furrydaus/android_script
+# The Local_manifests
+Only for Huashan (SONY XPERIA SP)
+-Revision: CM12.1
